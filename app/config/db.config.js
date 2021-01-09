@@ -2,7 +2,7 @@ module.exports = {
     HOST: "localhost",
     USER: "postgres",
     PASSWORD: "123",
-    DB: "testdb",
+    DB: "postgresql-opaque-06183",
     dialect: "postgres",
     pool: {
       max: 5,
@@ -10,4 +10,5 @@ module.exports = {
       acquire: 30000,
       idle: 10000
     }
+
   };
