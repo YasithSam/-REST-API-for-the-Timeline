@@ -3,6 +3,7 @@ module.exports = {
     USER: "postgres",
     PASSWORD: "123",
     DB: "testdb",
+    use_env_variable:"DATABASE_URL",
     dialect: "postgres",
     pool: {
       max: 5,
