@@ -76,11 +76,11 @@
             }
           },
           "delete": {
-            "summary": "Delete all users",
+            "summary": "Delete all events",
             "tags": ["Events"],
             "responses": {
               "200": {
-                "description": "All Users are deleted"
+                "description": "All Events are deleted"
                
               }
             }
